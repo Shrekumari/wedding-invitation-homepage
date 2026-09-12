@@ -135,6 +135,9 @@ body {
 /* Map button */
 
 .map-button {
+  position: relative;
+  z-index: 100;
+
   border: none;
   padding: 10px 27px;
   border-radius: 25px;
@@ -159,7 +162,6 @@ body {
 .map-button:hover {
   background: #641f2d;
 }
-
 
 /* =========================
    MANDAP + FLOWERS

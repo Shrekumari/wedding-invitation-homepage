@@ -190,14 +190,18 @@ function App() {
             Oct 30 &amp; 31, 2026 | Hall Complex
           </p>
 
-          <a
-            href="https://www.google.com/maps/search/?api=1&query=Hall+Complex,+1st+B+Cross+Rd,+7th+Block,+Koramangala,+Bengaluru,+Karnataka+560095"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="map-button"
-          >
-            View in Map
-          </a>
+     <button
+  type="button"
+  className="map-button"
+  onClick={() => {
+    window.open(
+      "https://www.google.com/maps/search/?api=1&query=Hall%20Complex%2C%207th%20Block%2C%20Koramangala%2C%20Bengaluru%2C%20Karnataka%20560095",
+      "_blank"
+    );
+  }}
+>
+  View in Map
+</button>
 
 
           {/* MANDAP */}
