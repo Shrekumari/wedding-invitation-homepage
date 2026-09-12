@@ -177,7 +177,7 @@ function App() {
             </span>
 
             <span className="wed-text">
-              wed
+              weds
             </span>
 
             <span>
